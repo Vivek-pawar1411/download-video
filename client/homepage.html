@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Video Downloader</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Download Video</h1>
+        <form id="downloadForm">
+            <label for="url">Video URL:</label>
+            <input type="url" id="url" name="url" required placeholder="Enter video URL" />
+            <label for="filename">Filename:</label>
+            <input type="text" id="filename" name="filename" required placeholder="Enter filename" />
+            <button type="submit">Download</button>
+        </form>
+
+        <!-- Button to navigate to show all videos -->
+        <a href="showall.html" class="see-all-button">See All</a>
+
+        <div id="status"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
