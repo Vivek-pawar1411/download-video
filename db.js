@@ -5,9 +5,9 @@ const AppDataSource = new DataSource({
     type: 'mysql', // ✅ FIXED typo
     host: 'localhost',
     port: 3306,
-    username: 'root',
-    password: 'VIVEKpawar1411',
-    database: 'db_test',
+    username: 'xxxxxxxxx',
+    password: 'xxxxxxxxxxxx',
+    database: 'xxxxxxxxx',
     synchronize: false,
     entities: [VideoEntity],
 });
